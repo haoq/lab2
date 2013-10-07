@@ -1,3 +1,7 @@
+/*Qingying Hao, INFO 343A, Lab2
+This is my css style sheet for all the three html files.
+*/
+
 /* Google web fonts 'Open Sans' (italic and normal) and 'Boogaloo' */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Boogaloo);
@@ -13,10 +17,117 @@ body {
     padding: 10px;
 }
 
+p {
+	padding: 20px
+}
+
+h1 {
+	font-family: Boogaloo;
+}
+
+h1, h2 {
+	font-size: 36px;
+}
+
+dt, h2, h1 {
+	color:  #116189;
+}
+
+dt, h2 {
+	font-weight: bold;
+}
+
+dl {
+	margin: 10px;
+}
+
+.motto {
+	font-style: italic;
+	font-size: 120%;
+}
+
+.left {
+	float: left;
+	margin-right: 20px;
+}
+
 .content-box {
 	width: 80%;
 	background-color: #FFF;
 	margin: 0 auto;
 	box-shadow: 2px 2px 6px #555;
+}
 
+nav ul {
+	background-color: #D74710;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	color: #FFF;
+	font-weight: bold;
+	padding: 10px;
+}
+
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #FF9D45;
+	border-radius: 5px;
+}
+
+.right {
+	float: right;
+	margin-right: 20px;
+}
+
+ footer p {
+ 	font-style: italic;
+ 	font-size: 80%;
+ }
+
+footer {
+	border-top:thin solid #A9A9A9;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+footer a:link {
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+
+/*These are the optional steps css code*/
+.inner {
+	background-color: #FBEAE3;
+	width: 75%;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+.inner a:link{
+	text-decoration: none;
+}
+
+.inner a:hover {
+	text-decoration: underline;
+}
+
+.optional {
+	float: left;
+	margin-right:20px;
 }
