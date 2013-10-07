@@ -27,23 +27,28 @@ h1 {
 
 h1, h2 {
 	font-size: 36px;
-}
-
-dt, h2, h1 {
 	color:  #116189;
 }
 
-dt, h2 {
+h2 {
 	font-weight: bold;
-}
-
-dl {
-	margin: 10px;
 }
 
 .motto {
 	font-style: italic;
 	font-size: 120%;
+}
+
+.list p {
+	color:#116189; 
+	font-weight: bold;
+}
+.list {
+	margin-bottom: 20px;
+}
+.people {
+	float:left;
+	margin:20px;
 }
 
 .left {
@@ -87,7 +92,7 @@ nav a:hover {
 
 .right {
 	float: right;
-	margin-right: 20px;
+	margin-left: 20px;
 }
 
  footer p {
